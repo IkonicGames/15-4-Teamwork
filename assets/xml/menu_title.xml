@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<include id="_ui_globals" />
+
+	<button id="play_game" center_x="true" y="200" group="top" label="Start Game" >
+		<param type="string" value="play_game" />
+	</button>
+
+	<button id="buttin_settings" center_x="true" y="220" group="top" label="Settings" >
+		<param type="string" value="menu_settings" />
+	</button>
+</data>

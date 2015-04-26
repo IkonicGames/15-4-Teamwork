@@ -1,0 +1,25 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"name": "15-4-Teamwork",
+			"path": "/Users/MaskedPixel/Development/haxe/1GAM/15-4-Teamwork"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Flixel",
+			"path": "/usr/lib/haxe/lib/flixel/3,3,8/"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Flixel Addons",
+			"path": "/usr/lib/haxe/lib/flixel-addons/1,1,0/"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Haxe",
+			"path": "/usr/lib/haxe/std"
+		}
+	]
+}

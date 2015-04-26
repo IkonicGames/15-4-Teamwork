@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="80" tilewidth="16" tileheight="16" nextobjectid="9">
+ <tileset firstgid="1" name="protoTiles" tilewidth="16" tileheight="16">
+  <image source="../../images/protoTiles.png" width="32" height="16"/>
+  <tile id="1">
+   <properties>
+    <property name="tileset" value="protoTiles"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="40" height="80">
+  <properties>
+   <property name="tileset" value="protoTiles"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzrENAAAIw7CK/4/mBhZgsKXsSQAAAAAAfqmD/O39AQAAAAAAAHMNhz0Arw==
+  </data>
+ </layer>
+ <objectgroup name="Enemies">
+  <object id="4" name="InitialLeft" type="enemyPath01" x="280" y="496">
+   <properties>
+    <property name="enemyType" value="RunAndGun"/>
+    <property name="numEnemies" value="1"/>
+   </properties>
+   <polyline points="0,0 116,-156 -88,-152"/>
+  </object>
+  <object id="6" name="InitialRight" type="enemyPath01" x="380" y="512">
+   <polyline points="0,0 0,-196 352,-196"/>
+  </object>
+  <object id="7" type="emitter01" x="304" y="496" width="32" height="32">
+   <properties>
+    <property name="emitDir" value="-1"/>
+    <property name="emitInterval" value="5"/>
+    <property name="emitSpacing" value=".2"/>
+    <property name="enemyCount" value="5"/>
+    <property name="enemyShoots" value="true"/>
+    <property name="shootInterval" value="0.1"/>
+    <property name="shootTarget" value="0"/>
+   </properties>
+  </object>
+  <object id="8" type="cannon01" x="484" y="500" width="28" height="28">
+   <properties>
+    <property name="shootInterval" value="1"/>
+    <property name="shootTarget" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="CamReference">
+  <object id="2" x="0" y="0" width="640" height="360"/>
+ </objectgroup>
+</map>

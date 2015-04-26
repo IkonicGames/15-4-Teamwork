@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="300" tilewidth="16" tileheight="16" nextobjectid="94">
+ <tileset firstgid="1" name="Tileset" tilewidth="16" tileheight="16">
+  <image source="../../images/Tileset.png" width="96" height="48"/>
+ </tileset>
+ <tileset firstgid="19" name="ObjectTiles" tilewidth="16" tileheight="16">
+  <image source="../../../workingAssets/ObjectTiles.png" width="32" height="224"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="40" height="300">
+  <properties>
+   <property name="tileset" value="Tileset"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt10Fu2zAQQFEnWaRZtL3/bRsBFWC4csQhR+Q0eA/QJrDEL8qUmdsNAAAAAAAAAAAAgF4/Do4qjtoqNVbv281u6xlndlvF57Sp3rdZ3Xc27uq5Wz3+me/a9/J5vAX+3qun7+XuvNeHY/97ZmPU++3fd8/RsarxZ2PfaOPIumidw97G0XUbmcOPBX3RxugcZr33Wp9zdA5n9/3uuPasvp62WX09ayPT2RrpnbtMzxortO0eG1c/1yNb46+/R6W5u1Llvelm9v45Ol7k86P38ri+M8c8en9U7xttzJbRFx2v55xZa+rKcTLXUqas70D1vvtrZcpa51eq0PjVeKv7WsZcPXcVv1f3qvfNUPn+Zz6fnu9r6znZe9Lovi/ynqjYN9rY+x6M3FfWb33POdXftZX7KrdtKrftMvsq3+/qPd+Z6n27yo3Zc1j9f7fv2Nez/5gh8zuf3X7Fc4vs7Wb2Ra/TOlZGX899ru5rPSd67d5r9vS1irQ9++yVfS1axs9cu1HZ78nKKvdV3J/dq7qH3OkbU7ltV7kNKsjYZ14pev1ne/SMvd7VfS3HlW3/Q99oY3SMEWcdq/uOGjLH8vsLAAAAAAAAAAAAAAAAAAAAAAAAAAAAkO8P1WgS0Q==
+  </data>
+ </layer>
+ <objectgroup name="Enemies">
+  <object id="2" type="enemyPath01" x="240" y="448">
+   <polyline points="0,0 0,-172 44,-128 440,-128"/>
+  </object>
+  <object id="3" type="enemyPath01" x="400" y="560">
+   <polyline points="0,0 0,-208 -48,-160 -448,-160"/>
+  </object>
+  <object id="9" type="enemyPath01" x="528" y="812">
+   <polyline points="0,0 0,-140 -48,-92 -596,-92"/>
+  </object>
+  <object id="5" type="enemyPath01" x="112" y="744">
+   <polyline points="0,0 0,-200 52,-152 576,-152"/>
+  </object>
+  <object id="12" type="enemyPath01" x="448" y="928">
+   <polyline points="0,0 0,-160 -48,-108 -500,-108"/>
+  </object>
+  <object id="13" type="enemyPath01" x="224" y="992">
+   <polyline points="0,0 0,-104 44,-56 464,-56"/>
+  </object>
+  <object id="23" type="cannon01" gid="27" x="352" y="1056" width="16" height="16"/>
+  <object id="25" type="cannon01" gid="27" x="184" y="1520" rotation="-360"/>
+  <object id="26" type="cannon01" gid="27" x="224" y="1324" rotation="-450"/>
+  <object id="27" type="cannon01" gid="27" x="432" y="1548" rotation="-450">
+   <properties>
+    <property name="shootTarget" value="left"/>
+   </properties>
+  </object>
+  <object id="28" type="cannon01" gid="27" x="400" y="1620" rotation="-630"/>
+  <object id="29" type="cannon01" gid="27" x="416" y="1304" rotation="-630"/>
+  <object id="31" type="cannon01" gid="27" x="368" y="1448" rotation="90"/>
+  <object id="32" type="cannon01" gid="27" x="256" y="1560" rotation="-630">
+   <properties>
+    <property name="shootTarget" value="right"/>
+   </properties>
+  </object>
+  <object id="33" type="cannon01" gid="27" x="320" y="1652" rotation="-450">
+   <properties>
+    <property name="shootTarget" value="left"/>
+   </properties>
+  </object>
+  <object id="34" type="cannon01" gid="27" x="256" y="1404" rotation="270"/>
+  <object id="35" type="cannon01" gid="27" x="352" y="1136" rotation="180"/>
+  <object id="44" type="enemyPath01" x="560" y="1280">
+   <polyline points="0,0 -88,-128 -272,-124 -580,36"/>
+  </object>
+  <object id="46" type="enemyPath01" x="112" y="1344">
+   <polyline points="0,0 100,-124 244,-152 568,-160"/>
+  </object>
+  <object id="48" type="cannon01" gid="27" x="328" y="1232" width="16" height="16"/>
+  <object id="49" type="enemyPath01" x="480" y="1664">
+   <polyline points="0,0 -88,-104 -80,-164 -16,-208 176,-208"/>
+  </object>
+  <object id="50" type="enemyPath01" x="128" y="1648">
+   <polyline points="0,0 12,-132 72,-184 156,-144 164,-28 52,36 -148,36"/>
+  </object>
+  <object id="51" type="cannon01" gid="27" x="380" y="1712" width="16" height="16" rotation="180"/>
+  <object id="52" type="cannon01" gid="27" x="192" y="1832" width="16" height="16" rotation="90">
+   <properties>
+    <property name="shootTarget" value="right"/>
+   </properties>
+  </object>
+  <object id="53" type="cannon01" gid="27" x="416" y="1776" width="16" height="16"/>
+  <object id="55" type="cannon01" gid="27" x="252" y="1744" width="16" height="16" rotation="180"/>
+  <object id="56" type="cannon01" gid="27" x="256" y="1712" width="16" height="16" rotation="90">
+   <properties>
+    <property name="shootTarget" value="right"/>
+   </properties>
+  </object>
+  <object id="58" type="enemyPath01" x="268" y="1652">
+   <properties>
+    <property name="camPos" value="0"/>
+   </properties>
+   <polyline points="0,0 36,100 68,120 116,108 164,88 216,100 232,140 256,184 328,204 408,204"/>
+  </object>
+  <object id="59" type="enemyPath01" x="500" y="1832">
+   <polyline points="0,0 -24,-68 -72,-80 -128,-76 -200,-52 -296,-52 -344,-68 -448,-76 -532,-76"/>
+  </object>
+  <object id="60" type="enemyPath01" x="172" y="2000">
+   <polyline points="0,0 20,-68 100,-116 212,-128 292,-88 412,-52 536,-52"/>
+  </object>
+  <object id="61" type="cannon01" gid="27" x="400" y="1980" width="16" height="16" rotation="90">
+   <properties>
+    <property name="shootTarget" value="right"/>
+   </properties>
+  </object>
+  <object id="63" type="cannon01" gid="27" x="168" y="1856" width="16" height="16" rotation="180"/>
+  <object id="64" type="cannon01" gid="27" x="312" y="1920" width="16" height="16"/>
+  <object id="66" type="cannon01" gid="27" x="304" y="2024" width="16" height="16" rotation="270">
+   <properties>
+    <property name="shootTarget" value="left"/>
+   </properties>
+  </object>
+  <object id="67" type="cannon01" gid="27" x="288" y="1956" width="16" height="16" rotation="270">
+   <properties>
+    <property name="shootTarget" value="left"/>
+   </properties>
+  </object>
+  <object id="68" type="cannon01" gid="27" x="432" y="1856" width="16" height="16" rotation="180"/>
+  <object id="71" type="enemyPath01" x="192" y="1756">
+   <properties>
+    <property name="camPos" value="0"/>
+   </properties>
+   <polyline points="0,0 36,52 40,100 -8,168 -96,212 -224,212"/>
+  </object>
+  <object id="72" type="enemyPath01" x="456" y="2012">
+   <properties>
+    <property name="camPos" value="0"/>
+   </properties>
+   <polyline points="0,0 -12,28 -44,68 -52,124 -40,180 -52,216 -132,224 -216,204 -304,188 -388,184 -472,184"/>
+  </object>
+  <object id="73" type="cannon01" gid="27" x="512" y="2124" width="16" height="16" rotation="90">
+   <properties>
+    <property name="shootTarget" value="right"/>
+   </properties>
+  </object>
+  <object id="74" type="cannon01" gid="27" x="484" y="2048" width="16" height="16"/>
+  <object id="76" type="cannon01" gid="27" x="168" y="2048" width="16" height="16"/>
+  <object id="77" type="cannon01" gid="27" x="432" y="2120" width="16" height="16" rotation="270">
+   <properties>
+    <property name="shootTarget" value="left"/>
+   </properties>
+  </object>
+  <object id="78" type="cannon01" gid="27" x="160" y="2120" width="16" height="16" rotation="270">
+   <properties>
+    <property name="shootTarget" value="left"/>
+   </properties>
+  </object>
+  <object id="79" type="cannon01" gid="27" x="320" y="2164" width="16" height="16" rotation="270">
+   <properties>
+    <property name="shootTarget" value="left"/>
+   </properties>
+  </object>
+  <object id="80" type="cannon01" gid="27" x="384" y="2156" width="16" height="16" rotation="90">
+   <properties>
+    <property name="shootTarget" value="right"/>
+   </properties>
+  </object>
+  <object id="81" type="emitter01" gid="43" x="316" y="2416"/>
+  <object id="82" type="cannon01" gid="27" x="488" y="2176" width="16" height="16" rotation="180"/>
+  <object id="83" type="cannon01" gid="27" x="344" y="2192" width="16" height="16" rotation="180"/>
+  <object id="84" type="cannon01" gid="27" x="204" y="2160" width="16" height="16" rotation="180"/>
+  <object id="85" type="cannon01" gid="27" x="240" y="2104" width="16" height="16" rotation="90">
+   <properties>
+    <property name="shootTarget" value="right"/>
+   </properties>
+  </object>
+  <object id="86" type="cannon01" gid="27" x="236" y="2384" width="16" height="16"/>
+  <object id="87" type="cannon01" gid="27" x="388" y="2400" width="16" height="16"/>
+  <object id="88" type="cannon01" gid="27" x="284" y="2496" width="16" height="16" rotation="180"/>
+  <object id="89" type="cannon01" gid="27" x="384" y="2480" width="16" height="16" rotation="180"/>
+  <object id="90" type="cannon01" gid="27" x="448" y="2440" width="16" height="16" rotation="90">
+   <properties>
+    <property name="shootTarget" value="right"/>
+   </properties>
+  </object>
+  <object id="91" type="cannon01" gid="27" x="192" y="2444" width="16" height="16" rotation="270">
+   <properties>
+    <property name="shootTarget" value="left"/>
+   </properties>
+  </object>
+  <object id="92" type="enemyPath01" x="252" y="2592">
+   <polyline points="0,0 -16,-44 -56,-104 -116,-168 -200,-216 -304,-256"/>
+  </object>
+  <object id="93" type="enemyPath01" x="316" y="2600">
+   <polyline points="0,0 56,-56 124,-92 168,-148 208,-176 264,-200 344,-228"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="CamReference"/>
+</map>

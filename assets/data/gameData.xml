@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+   <objects>
+      <!-- Cannons -->
+      <object name="cannon01" graphic="cannon01" health="2" immovable="true">
+         <components>
+            <component type="EnemyShoot">
+               <params>
+                  <shootInterval type="float">2</shootInterval>
+                  <shootTarget type="int">0</shootTarget>
+               </params>
+            </component>
+         </components>
+      </object>
+
+      <!-- Dive Bombers -->
+      <object name="diveBomber01" graphic="diveBomber01" health="2">
+         <components>
+            <component type="EnemyDiveBomb">
+               <params>
+                  <direction type="float">-100</direction>
+               </params>
+            </component>
+         </components>
+      </object>
+
+      <!-- Emitters -->
+      <object name="emitter01" graphic="emitter01" health="4" immovable="true">
+         <components>
+            <component type="EnemyEmitter">
+               <params>
+                  <emitDir type="int">-1</emitDir>
+                  <emitInterval type="float">5</emitInterval>
+                  <emitSpacing type="float">0.2</emitSpacing>
+                  <enemyCount type="int">5</enemyCount>
+                  <enemyType type="string">diveBomber01</enemyType>
+               </params>
+            </component>
+         </components>
+      </object>
+
+      <!-- Enemy Paths -->
+      <object name="enemyPath01" immovable="true">
+         <components>
+            <component type="EnemyPath">
+               <params>
+                  <enemyType type="string">enemyOnPath01</enemyType>
+                  <spawnDelay type="float">2</spawnDelay>
+                  <spawnInterval type="float">0.2</spawnInterval>
+                  <numEnemies type="int">10</numEnemies>
+               </params>
+            </component>
+         </components>
+      </object>
+
+      <!-- Enemy On Path -->
+      <object name="enemyOnPath01" graphic="drone01" health="2">
+         <components>
+            <component type="MoveOnPath">
+               <params>
+                  <speed type="float">100</speed>
+               </params>
+            </component>
+         </components>
+      </object>
+   </objects>
+</data>

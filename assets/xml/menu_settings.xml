@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<include id="_ui_globals" />
+
+	<checkbox id="chk_music" center_x="true" y="200" group="top" label="Music" checked="true" >
+		<param type="string" value="music_toggled" />
+	</checkbox>
+
+	<checkbox id="chk_sound" center_x="true" y="230" group="top" label="Sound" checked="true" >
+		<param type="string" value="sound_toggled" />
+	</checkbox>
+
+	<button id="btn_back" center_x="true" x="100" y="300" label="Back" >
+		<param type="string" value="menu_title" />
+	</button>
+</data>
